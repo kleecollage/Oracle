@@ -22,7 +22,7 @@ SELECT first_name, salary,
     FROM employees;
     
     
-    -- DECODE(FIRST_VALUE, CONDITION_1, VALUE_1, CONDITION_2, VALUE_2, ... , CONDITION_n, VALUE_n, ELSE_VALUE)
+    -- DECODE(EXPRESSION, CONDITION_1, VALUE_1, CONDITION_2, VALUE_2, ... , CONDITION_n, VALUE_n, DEFAULT_VALUE)
 SELECT first_name, department_id,
     DECODE(department_id, 50, 'Computing', 10, 'Sells', 'Other Job')
     FROM employees;
