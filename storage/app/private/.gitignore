@@ -1,0 +1,25 @@
+*
+!.gitignore
+
+
+storage
+    app
+        private
+            .gitignore
+    public
+        .gitignore
+    .gitignore
+    framework
+        cache
+            data
+                .gitignore
+        .gitignore
+        sessions
+            .gitignore
+        testing
+            .gitignore
+        views
+            .gitignore
+        .gitignore
+    logs
+        .gitignore
